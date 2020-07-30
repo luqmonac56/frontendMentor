@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Insure landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+
+  <div class="desktop-nav flex">
+    <img class="logo" src="images/logo.svg" alt="logo">
+    <nav class="navigation">
+          <ul class="desktop-nav-ul">
+            <li><a href="#" >How we work</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Account</a></li>
+            <li><a href="#" class="View-plans"><button>View plans</button></a></li>
+        </ul>
+        
+      </nav>
+</div>
+
+
+<nav class="mobile-view-nav">
+<div class="modal-nav">
+<div class="buttons">
+  <img class="modal-logo" src="images/logo.svg" alt="logo">
+  <img  id="Btn" class="button" src="images/icon-hamburger.svg" alt="Hamburger">
+  <img class="closeBtn" id="close" src="images/icon-close.svg" alt="close button">
+</div>
+
+<div id="simpleModal" class="modal">
+<div class="modal-content">
+            <ul class="nav-ul">
+                <li><a href="#">How we work</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Account</a></li>
+                <li><a href="#" class="View-plans"><button>View plans</button></a></li>
+          </ul>
+</div>
+   <a href="#" class="request-invite">View plans</a>
+</div>
+</div>
+</nav> 
+
+
+<main>
+  <div class="section1 flex">
+    <img class="mobile-img" src="images/image-intro-mobile.jpg" alt="intro-image">
+    <img class="desktop-img" src="images/image-intro-desktop.jpg" alt="intro-image">
+    <img src="images/bg-pattern-intro-left-mobile.svg" alt="bg-pattern-intro-left-mobile" class="bg-pattern-intro-left-mobile">
+    
+    <img  class="bg-intro-right" src="images/bg-pattern-intro-right-desktop.svg" alt="bg-pattern-intro-right-desktop">
+    <img class="bg-intro-left" src="images/bg-pattern-intro-left-desktop.svg" alt="bg-pattern-intro-left-desktop">
+    <div class="section1-1 flex">
+      <div class="section1-1-hr"></div>
+      <h1>Humanizing your insurance.</h1>
+      <p> Get your life insurance coverage easier and faster. We blend our expertise 
+        and technology to help you find the plan that’s right for you. Ensure you 
+        and your loved ones are protected.</p>
+        <button><a href="#">View plans</a></button>
+        <img src="images/bg-pattern-intro-right-mobile.svg" alt="bg-pattern-intro-right-mobile" class="bg-pattern-intro-right-mobile">
+    </div>
+  </div>
+
+  <div class="section2 flex">
+    <div class="section2-hr"></div>
+     <h2>We’re different</h2>
+
+
+     <div class="flex features">
+
+       <div class="feature">
+        <p class="image"><img src="images/icon-snappy-process.svg" alt="snappy process image"></p>
+        <h3>Snappy Process</h3>
+        <p class="feature-p">Our application process can be completed in minutes, not hours. Don’t get 
+          stuck filling in tedious forms.</p>
+       </div>
+
+       <div class="feature">
+         <p class="image"><img src="images/icon-affordable-prices.svg" alt="Affordable price image"></p>
+         <h3>Affordable Prices</h3>
+         <p  class="feature-p">We don’t want you worrying about high monthly costs. Our prices may be low, 
+          but we still offer the best coverage possible.</p>
+       </div>
+
+       <div class="feature">
+        <p class="image"><img src="images/icon-people-first.svg" alt="people first image"></p>
+        <h3>People First</h3>
+        <p  class="feature-p"> Our plans aren’t full of conditions and clauses to prevent payouts. We make 
+          sure you’re covered when you need it.</p>
+       </div>
+
+     </div>
+
+     
+  </div>
+
+
+  <div class="section3 flex">
+    <img src="images/bg-pattern-how-we-work-mobile.svg" alt="bg-pattern-how-we-work-mobile" class="bg-pattern-how-we-work-mobile">
+    <h2>Find out more about how we work</h2>
+    <button> <a href="#">How we work</a></button>
+    <img class="bg-pattern-how-we-work-desktop" src="images/bg-pattern-how-we-work-desktop.svg" alt="bg-pattern-how-we-work-desktop">
+  </div>
+
+
+</main>
+  
+
+  
+<footer>
+  
+  <div class="logos flex">
+    <img src="images/logo.svg" alt="" class="logo">
+    <img src="images/bg-pattern-footer-mobile.svg" class="bg-pattern-footer-mobile" alt="bg-pattern-footer-mobile">
+
+
+    <div class="social-media">
+      <img src="images/icon-facebook.svg" alt="facebook logo">
+      <img src="images/icon-twitter.svg" alt="Twitter">
+      <img src="images/icon-pinterest.svg" alt="Pinterest">
+      <img src="images/icon-instagram.svg" alt="instagram">
+    </div>
+<img src="images/bg-pattern-footer-desktop.svg" class="bg-pattern-footer-desktop" alt="bg-pattern-footer-desktop">
+  </div>
+  <div class="footer-hr"></div>
+<div class="footer-menu flex">
+
+<div class="first">
+    <p>Our company</p>
+    <ul>
+      <li><a href="#">How we work</a></li>
+      <li><a href="#">Why Insure?</a></li>
+      <li><a href="#">View plans</a></li>
+      <li><a href="#"> Reviews</a></li>
+    </ul>
+  </div>
+
+  <div class="second">
+    <p>Help me</p>
+    <ul>
+      <li><a href="#"> FAQ</a></li>
+      <li><a href="#">Terms of use</a></li>
+      <li><a href="#">Privacy policy</a></li>
+      <li><a href="#">Cookies</a></li>
+    </ul>
+  </div>
+
+  <div class="third">
+    <p>Contact</p>
+    <ul>
+      <li><a href="#"> Sales</a></li>
+      <li><a href="#">Support</a></li>
+      <li><a href="#">Live chat</a></li>
+    </ul>
+  </div>
+
+  <div class="fourth">
+  <p> Others</p>
+  <ul>
+    <li><a href="#"> Careers</a></li>
+    <li><a href="#"> Press</a></li>
+    <li><a href="#"> Licenses</a></li>
+  </ul>
+</div>
+
+</div>
+
+  
+</footer>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Abdullahi Luqman</a>.
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
