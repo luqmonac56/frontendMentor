@@ -1,6 +1,8 @@
 let modal = document.getElementById('simpleModal'),
+    mainBody=document.getElementsByTagName('body'),
     modalBtn = document.getElementById('Btn'),
     closeBtn = document.getElementById('close');
+    
 
     modalBtn.addEventListener('click', openModal);
 
@@ -15,8 +17,9 @@ let modal = document.getElementById('simpleModal'),
 
     function openModal(){
         modal.style.display = 'block';
-        closeBtn.style.display = 'block'
-        modalBtn.style.display = 'none'
+        closeBtn.style.display = 'block';
+        modalBtn.style.display = 'none';
+        // mainBody.style.display = 'none';
     }
 
     function closeModal(){
